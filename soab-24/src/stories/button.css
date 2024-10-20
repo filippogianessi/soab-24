@@ -1,0 +1,32 @@
+@import url("../../build/css/_variables.css");
+
+.storybook-button {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  border-radius: var(--soab-core-radius-full);
+  font-weight: 700;
+  line-height: 1;
+  font-family: 'var(--soab-core-text-fontfamily-brand)', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.storybook-button--primary {
+  background-color: var(--soab-components-surface-button-primary);
+  color: var(--soab-alias-text-default);
+}
+.storybook-button--secondary {
+  border: var(--soab-core-color-neutral-200) 2px solid;
+  background-color: transparent;
+  color: var(--soab-alias-text-default);
+}
+.storybook-button--small {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+.storybook-button--medium {
+  padding: 11px 20px;
+  font-size: 14px;
+}
+.storybook-button--large {
+  padding: 12px 24px;
+  font-size: 16px;
+}
