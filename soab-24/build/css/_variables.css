@@ -1,0 +1,77 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --soab-core-stroke-small: 1px;
+  --soab-core-stroke-default: 2px;
+  --soab-core-radius-sm: 12px;
+  --soab-core-radius-md: 20px;
+  --soab-core-radius-full: 56px;
+  --soab-core-space-60: 240px;
+  --soab-core-space-40: 160px;
+  --soab-core-space-36: 144px;
+  --soab-core-space-32: 128px;
+  --soab-core-space-28: 112px;
+  --soab-core-space-24: 96px;
+  --soab-core-space-20: 80px;
+  --soab-core-space-16: 64px;
+  --soab-core-space-14: 56px;
+  --soab-core-space-12: 48px;
+  --soab-core-space-10: 40px;
+  --soab-core-space-8: 32px;
+  --soab-core-space-7: 28px;
+  --soab-core-space-6: 24px;
+  --soab-core-space-5: 20px;
+  --soab-core-space-4: 16px;
+  --soab-core-space-3: 12px;
+  --soab-core-space-2: 8px;
+  --soab-core-space-1: 4px;
+  --soab-core-lineheight-heading: 48px;
+  --soab-core-lineheight-body: 24px;
+  --soab-core-lineheight-action: 32px;
+  --soab-core-fontsize-tiny: 12px;
+  --soab-core-fontsize-small: 16px;
+  --soab-core-fontsize-heading: 48px;
+  --soab-core-fontsize-body: 20px;
+  --soab-core-fontsize-action: 28px;
+  --soab-core-text-fontfamily-brand: Inter;
+  --soab-core-fontfamily-brand: Inter;
+  --soab-core-color-neutral-900: #1b1c1c;
+  --soab-core-color-neutral-800: #252626;
+  --soab-core-color-neutral-700: #303031;
+  --soab-core-color-neutral-600: #464747;
+  --soab-core-color-neutral-500: #5e5e5f;
+  --soab-core-color-neutral-400: #747575;
+  --soab-core-color-neutral-300: #9d9e9e;
+  --soab-core-color-neutral-200: #c6c6c6;
+  --soab-core-color-neutral-100: #e2e2e2;
+  --soab-core-color-neutral-50: #f1f1f1;
+  --soab-core-color-neutral-0: #ffffff;
+  --soab-core-color-purple-900: #251431;
+  --soab-core-color-purple-800: #341a48;
+  --soab-core-color-purple-700: #421f60;
+  --soab-core-color-purple-600: #622894;
+  --soab-core-color-purple-500: #8331ca;
+  --soab-core-color-purple-400: #a138fe;
+  --soab-core-color-purple-300: #c67dff;
+  --soab-core-color-purple-200: #e2b6ff;
+  --soab-core-color-purple-100: #f2daff;
+  --soab-core-color-purple-50: #f8edff;
+  --soab-core-color-cyan-900: #0e1e1f;
+  --soab-core-color-cyan-800: #14292c;
+  --soab-core-color-cyan-700: #1a3437;
+  --soab-core-color-cyan-600: #274d50;
+  --soab-core-color-cyan-500: #32666b;
+  --soab-core-color-cyan-400: #3e7d84;
+  --soab-core-color-cyan-300: #53abb3;
+  --soab-core-color-cyan-200: #79d5dd;
+  --soab-core-color-cyan-100: #beeaef;
+  --soab-core-color-cyan-50: #dff5f7;
+  --soab-alias-surface-accent-deezer: var(--soab-core-color-purple-400);
+  --soab-alias-surface-accent-amazon: var(--soab-core-color-cyan-200);
+  --soab-alias-surface-accent: var(--soab-core-color-cyan-200);
+  --soab-alias-text-invert: var(--soab-core-color-neutral-0);
+  --soab-alias-text-default: var(--soab-core-color-neutral-900);
+  --soab-components-surface-button-primary: var(--soab-alias-surface-accent-amazon);
+}
