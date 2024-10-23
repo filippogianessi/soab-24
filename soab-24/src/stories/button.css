@@ -1,20 +1,32 @@
 @import url("../../build/css/_variables.css");
 
+[data-theme="amazon"] {
+  --soab-components-surface-button-primary: var(--soab-alias-surface-accent-amazon);
+  --soab-components-label-button-primary: var(--soab-alias-text-default);
+  --soab-components-radius-button: var(--soab-core-radius-full);
+}
+
+[data-theme="deezer"] {
+  --soab-components-surface-button-primary: var(--soab-alias-surface-accent-deezer);
+  --soab-components-label-button-primary: var(--soab-alias-text-invert);
+  --soab-components-radius-button: var(--soab-core-radius-md);
+}
+
 .storybook-button {
   display: inline-block;
   cursor: pointer;
   border: 0;
-  border-radius: var(--soab-core-radius-full);
+  border-radius: var(--soab-components-radius-button);
   font-weight: 700;
   line-height: 1;
   font-family: 'var(--soab-core-text-fontfamily-brand)', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .storybook-button--primary {
   background-color: var(--soab-components-surface-button-primary);
-  color: var(--soab-alias-text-default);
+  color: var(--soab-components-label-button-primary);
 }
 .storybook-button--secondary {
-  border: var(--soab-core-color-neutral-200) 2px solid;
+  border: var(--soab-core-color-neutral-200) var(--soab-core-stroke-default) solid;
   background-color: transparent;
   color: var(--soab-alias-text-default);
 }
@@ -28,5 +40,6 @@
 }
 .storybook-button--large {
   padding: 12px 24px;
-  font-size: 16px;
+  font-size: var(--soab-core-fontsize-action);
+
 }
