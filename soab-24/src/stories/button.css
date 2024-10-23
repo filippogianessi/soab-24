@@ -19,7 +19,7 @@
   border-radius: var(--soab-components-radius-button);
   font-weight: 700;
   line-height: 1;
-  font-family: 'var(--soab-core-text-fontfamily-brand)', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .storybook-button--primary {
   background-color: var(--soab-components-surface-button-primary);
@@ -28,7 +28,7 @@
 .storybook-button--secondary {
   border: var(--soab-core-color-neutral-200) var(--soab-core-stroke-default) solid;
   background-color: transparent;
-  color: var(--soab-alias-text-default);
+  color: #333;
 }
 .storybook-button--small {
   padding: 10px 16px;
